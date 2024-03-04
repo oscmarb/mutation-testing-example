@@ -1,0 +1,41 @@
+{
+  "name": "oscmarb/mutation-testing-example",
+  "type": "library",
+  "description": "Example of mutation testing with infection",
+  "keywords": [
+    "mutation testing",
+    "testing",
+    "infection",
+    "php"
+  ],
+  "homepage": "https://github.com/oscmarb/mutation-testing-example",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Óscar Martínez",
+      "email": "oscmarb@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "phpunit/phpunit": "^8.0 || ^9.0",
+    "infection/infection": "~0.26"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oscmarb\\Infection\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Oscmarb\\Infection\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "cache-dir": ".composer",
+    "sort-packages": true,
+    "allow-plugins": {
+      "infection/extension-installer": false
+    }
+  }
+}

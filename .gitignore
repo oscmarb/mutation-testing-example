@@ -1,0 +1,6 @@
+.idea
+vendor
+phpunit.xml.dist
+.composer
+.phpunit.result.cache
+infection.html
