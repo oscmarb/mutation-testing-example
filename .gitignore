@@ -4,3 +4,4 @@ phpunit.xml.dist
 .composer
 .phpunit.result.cache
 infection.html
+.php-cs-fixer.cache

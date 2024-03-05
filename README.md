@@ -5,8 +5,7 @@ Example to execute mutation tests.
 Follow the steps in the **Setup** section to be able to execute the tests. 
 After running **_Infection_**, you will have a report available in _**infection.html**_.
 
-**Try to kill all the mutants!** Modify the **_TemperatureSanitizerTest_** test at your discretion. 
-**There's an ignored test that kills all the mutants**.
+Remove the test and **try to kill all mutants!**
 
 ## Setup
 
